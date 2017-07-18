@@ -1,5 +1,4 @@
-CREATE FUNCTION ShrinkSpaces(
-    @input nvarchar(MAX))
+CREATE FUNCTION ShrinkSpaces(@input nvarchar(MAX))
 
 RETURNS nvarchar(MAX)
 
